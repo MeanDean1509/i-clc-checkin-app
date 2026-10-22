@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@theme inline {
+  --color-brand: #662872;
+  --color-brand-light: #f4e8f6;
+  --color-accent: #00adee;
+}
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; min-height: 100%; }
+body { background: #f8f8ff; color: #1c1c1c; font-family: Arial, Helvetica, sans-serif; }
+button, input { font: inherit; }
